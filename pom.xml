@@ -59,6 +59,14 @@
             <version>4.3.1</version>
         </dependency>
 
+        <!-- webjars-locator 추가 : Webjar 버전 문제 해결 위해 -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator</artifactId>
+            <version>0.30</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
